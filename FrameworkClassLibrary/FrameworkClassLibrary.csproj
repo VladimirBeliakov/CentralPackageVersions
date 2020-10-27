@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="AbbyyLS.MongoDBPersistence" />
+		<PackageReference Include="MongoDB.Driver" />
+		<PackageReference Include="NLog" VersionOverride="4.5.*" />
+		<PackageReference Include="TSClientGen" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\ProjectA\ProjectA.csproj" />
+	  <ProjectReference Include="..\ProjectB\ProjectB.csproj" />
+	</ItemGroup>
+</Project>
