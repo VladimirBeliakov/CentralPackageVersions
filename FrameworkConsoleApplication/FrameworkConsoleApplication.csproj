@@ -43,6 +43,9 @@
 		<Compile Include="Properties\AssemblyInfo.cs" />
 	</ItemGroup>
 	<ItemGroup>
+		<PackageReference Include="MongoDB.Bson" VersionOverride="2.10.1" />
+		<PackageReference Include="MongoDB.Driver" VersionOverride="2.10.1" />
+		<PackageReference Include="MongoDB.Driver.Core" VersionOverride="2.10.1" />
 		<PackageReference Include="Ninject" />
 	</ItemGroup>
 	<ItemGroup>

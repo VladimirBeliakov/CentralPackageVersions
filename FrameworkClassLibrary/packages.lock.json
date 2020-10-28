@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.7.2": {
+      "AbbyyLS.MongoDBPersistence": {
+        "type": "Direct",
+        "requested": "[10.0.0, )",
+        "resolved": "10.0.0",
+        "contentHash": "CbLowpNiCPtZo+5wulHad7RYVy7juOgySE4HX9bi5hFNTY+blVPIFbNnpp2tbMe8uHN0vWd3D96ljs7LIDKuyg==",
+        "dependencies": {
+          "MongoDB.Bson": "2.7.0",
+          "MongoDB.Driver": "2.7.0",
+          "Ninject": "[3.3.0, 4.0.0)"
+        }
+      },
+      "MongoDB.Driver": {
+        "type": "Direct",
+        "requested": "[2.10.1, )",
+        "resolved": "2.10.1",
+        "contentHash": "BIJgMPsdeFzg5SsW5K1+GPNXddwJbhUcgcPic6EtmF9o8o0Inf/SyvuxtdB25zQV+UmR1rDJ7OfmTwddqmEDZA==",
+        "dependencies": {
+          "MongoDB.Bson": "2.10.1",
+          "MongoDB.Driver.Core": "2.10.1",
+          "MongoDB.Libmongocrypt": "1.0.0"
+        }
+      },
+      "NLog": {
+        "type": "Direct",
+        "requested": "[4.5.*, )",
+        "resolved": "4.5.11",
+        "contentHash": "Yni/XrDfbEhaCSXJsDkmW/n5AunhOxZ7OKKb+0U1I1/d8ZaKt3Jjzf20g/xPiKljmYuZKYqI5iI34g138kK8UQ=="
+      },
+      "TSClientGen": {
+        "type": "Direct",
+        "requested": "[5.1.2-smartcat, )",
+        "resolved": "5.1.2-smartcat",
+        "contentHash": "sLfwVR/RiTJKlW6xCclPfNz6uxpvB3kKc5g/4Vt08WaunFCohowZDrpdV3Kf2RgL0vHpONdTLnD7tz1f7iz53A==",
+        "dependencies": {
+          "TSClientGen.Contract": "[5.1.2-smartcat]",
+          "TSClientGen.Extensibility": "[5.1.2-smartcat]"
+        }
+      },
+      "Crc32C.NET": {
+        "type": "Transitive",
+        "resolved": "1.0.5",
+        "contentHash": "jkRUy0aNbP0IWWxRz7vUChV3F6TsEPXuLSsCysS6xHZdxomsYOg8n6e08ZhT/FJ9BDXSwVezBENWReMLuO7tQA=="
+      },
+      "DnsClient": {
+        "type": "Transitive",
+        "resolved": "1.2.0",
+        "contentHash": "P34wUkeqU4FoQiOMV8OjpdeDZKs4d3r+VlHuKJ6eO5feiZgna3+9MF5orHRUn3DAv1g/HPE5hlkGucmxmsFfBw==",
+        "dependencies": {
+          "System.Buffers": "4.4.0"
+        }
+      },
+      "MongoDB.Bson": {
+        "type": "Transitive",
+        "resolved": "2.10.1",
+        "contentHash": "BTQKxYytJL4CZob76qVAVTM51AryI/wE3JkASRtWUYCUSEJVMBGBVtzV5O9AUo6Tjrn8qQXvtGVPfACb6x53Kw=="
+      },
+      "MongoDB.Driver.Core": {
+        "type": "Transitive",
+        "resolved": "2.10.1",
+        "contentHash": "TmiqxJQ2XVsFAY1tvcxHr2Q1HFe2J0MqKZ1F9VMe44ZxtiEzxsugJJQstYOmnt5Ut9zU70SzQLTpDLlQG7aBow==",
+        "dependencies": {
+          "DnsClient": "1.2.0",
+          "MongoDB.Bson": "2.10.1",
+          "MongoDB.Libmongocrypt": "1.0.0",
+          "SharpCompress": "0.23.0",
+          "Snappy.NET": "1.1.1.8",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
+        }
+      },
+      "MongoDB.Libmongocrypt": {
+        "type": "Transitive",
+        "resolved": "1.0.0",
+        "contentHash": "zkcsra5riDiKXqOiCKskycakpbO5RYkuUWG+z2AZML3A4NShvAs/D3InwkxH0OcbjZQOWo763Hjdmhr0AaylcA=="
+      },
+      "Ninject": {
+        "type": "Transitive",
+        "resolved": "3.3.0",
+        "contentHash": "iBW79OXhkaOmjwhdMQX0AlrLIVAji5XwfOMD5gHcitUuxuaA2apRxTzju8Z1r8buo98BTWxjkiYvPpvenjYoOA=="
+      },
+      "SharpCompress": {
+        "type": "Transitive",
+        "resolved": "0.23.0",
+        "contentHash": "HBbT47JHvNrsZX2dTBzUBOSzBt+EmIRGLIBkbxcP6Jef7DB4eFWQX5iHWV3Nj7hABFPCjISrZ8s0z72nF2zFHQ=="
+      },
+      "Snappy.NET": {
+        "type": "Transitive",
+        "resolved": "1.1.1.8",
+        "contentHash": "NrPQFHWS7A3BIPVaO+QJqrxzReHUaS0/3VtAeb1neiQboZeCujE6lIsavjZipQa6UaBrxH3K79hBzU/ndVJDGQ==",
+        "dependencies": {
+          "Crc32C.NET": "1.0.5"
+        }
+      },
+      "System.Buffers": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "Ii2bedd4HVzddupdU35n3ygohUPlNn7MDimBOYcwWNce2NizQ1fCSaQJY1Tzv80aMqOGpVcU4wZr/Xe50xcTwg=="
+      },
+      "System.Runtime.InteropServices.RuntimeInformation": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "elGebLeZbTdf2ZvtaqwX8lvOq1r6JNAa4RZzq9lD35fau0z3oKyXjZPZN1dDYaznkWz0s2ZwqbEISI+uZIKU6g=="
+      },
+      "TSClientGen.Contract": {
+        "type": "Transitive",
+        "resolved": "5.1.2-smartcat",
+        "contentHash": "6famBVOc1aLWPhx+TCumKsHLPiSXLNC784/5UxqJJfZDOz0C9Rye7EFqrVvAEVc6N+1dXrL79bfHFM6d4JmU8g=="
+      },
+      "TSClientGen.Extensibility": {
+        "type": "Transitive",
+        "resolved": "5.1.2-smartcat",
+        "contentHash": "rVzORwH0aKZgB+TXCoL4me2Jzpmt7fZ5M5uCFFNoYhi+IMd2oUvgEOixtJeVQpFicRFPMwOnbOislDvAvbrj+A==",
+        "dependencies": {
+          "TSClientGen.Contract": "5.1.2-smartcat"
+        }
+      },
+      "projecta": {
+        "type": "Project",
+        "dependencies": {
+          "MongoDB.Driver": "2.10.1",
+          "NLog": "4.0.0"
+        }
+      },
+      "projectb": {
+        "type": "Project",
+        "dependencies": {
+          "MongoDB.Driver": "2.10.1",
+          "NLog": "4.0.0"
+        }
+      }
+    }
+  }
+}
